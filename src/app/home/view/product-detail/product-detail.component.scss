@@ -1,0 +1,40 @@
+.main {
+    width: 100vw;
+    height: auto;
+
+    .product {
+        margin: 10px auto;
+        width: 1366px;
+        display: grid;
+        grid-template-columns: 70% 30%;
+
+
+        .product-box {
+            border: 1px solid blue;
+            display: grid;
+            grid-template-columns: 80% 20%;
+
+            .product-img {
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                width: 700px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .img-dropdow {
+                display: grid;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+
+        .product-spec {
+            padding: 0 10px;
+        }
+    }
+}
